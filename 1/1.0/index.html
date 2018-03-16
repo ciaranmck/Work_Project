@@ -39,25 +39,66 @@
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
-
     </header>
 
     <div class="container-fluid">
-        <div class="row row-sm-height" style="">
-            <img class="img-responsive" src="../../images/course.png">
+        <div class="row">
+            <div class="fill-screen" style="background-image: url(../../images/course.png); "></div>
         </div>
+        <div class="row content-filler">
+            <h1>Event Background</h1>
+        </div>  
+        <div class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/dining.png); "></div>
+        </div>
+        <div class="row content-filler">
+            <h1>Charity Gold Day Package</h1>
+        </div>
+        <div class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/background.jpg); "></div>
+        </div>
+        <div class="row content-filler">
+            <h1>Course Info</h1>
+        </div>
+         <div class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/background.jpg); "></div>
+        </div>
+        <div class="row content-filler">
+            <h1>Associated Charities</h1>
+        </div>
+         <div class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/background.jpg); "></div>
+        </div>
+        <div class="row content-filler">
+            <h1>Contact Us</h1>
+        </div>
+         <div class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/background.jpg); "></div>
+        </div>
+        <div class="row content-filler">
+            <h1>Click here to register!</h1>
+        </div>
+
     </div>
 
 
 
     <footer class="container-fluid">
-        <h1>FOOTER</h1>
+        <h1></h1>
     </footer>
 
     <script src="../../Scripts/jquery-1.9.0.min.js"></script>
     <script src="../../Scripts/bootstrap.min.js"></script>
     <script src="../../Scripts/classie.js"></script>
     <script src="../../Scripts/cbpAnimatedHeader.js"></script>
+
+    <script>
+        $(function () {
+            $(window).on("load resize", function () {
+                $(".fill-screen").css("height", window.innerHeight);
+            });
+        });
+    </script>
 
 </body>
 </html>
