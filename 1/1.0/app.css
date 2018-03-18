@@ -125,11 +125,11 @@ header {
 }
 
 /*Remove this if possible, it removes fixed screen images*/
-/*@media (max-width: 1024px) {
+@media (max-width: 1024px) {
     .fixed-attachment {
         background-attachment: scroll;
     }
-}*/
+}
 /*---------------------------------------*/
 
 .text-banner {
