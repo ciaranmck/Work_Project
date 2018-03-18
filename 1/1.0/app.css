@@ -3,6 +3,24 @@
     /*padding-top: 80px; */
 }
 
+/*html,
+body {
+    height: 100%;
+}
+
+header {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 100px 0;
+    min-height: 100%;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    background-color: #222;
+    background-size: cover;
+}*/
+
 .navbar {
     margin-bottom: 0px;
     padding: 20px 10px;
@@ -76,18 +94,55 @@
     background-position: center;
 }
 
-.content-filler {
+/*.content-filler {
     min-height: 350px;
+}*/
+
+.title-row {
+    position: relative;
+    min-height: 300px;
+}
+
+.title-image {
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 .fixed-attachment {
     background-attachment: fixed;
 }
 
+.down-button {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+/*Remove this if possible, it removes fixed screen images*/
 @media (max-width: 1024px) {
     .fixed-attachment {
         background-attachment: scroll;
     }
+}
+/*---------------------------------------*/
+
+.text-banner {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.text-banner h1 {
+    font-size: 44px;
+}
+
+.text-banner p {
+    font-size: 18px;
 }
 
 footer {

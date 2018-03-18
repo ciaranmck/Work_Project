@@ -4,6 +4,7 @@
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../../Content/fontawesome.min.css">
     <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
     <link href="app.css" rel="stylesheet" />
 </head>
@@ -42,43 +43,53 @@
     </header>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="fill-screen" style="background-image: url(../../images/course.png); "></div>
-        </div>
-        <div class="row content-filler">
-            <h1>Event Background</h1>
-        </div>  
-        <div class="row">
-            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/dining.png); "></div>
-        </div>
-        <div class="row content-filler">
-            <h1>Charity Gold Day Package</h1>
-        </div>
-        <div class="row">
-            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/background.jpg); "></div>
-        </div>
-        <div class="row content-filler">
-            <h1>Course Info</h1>
-        </div>
-         <div class="row">
-            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/background.jpg); "></div>
-        </div>
-        <div class="row content-filler">
-            <h1>Associated Charities</h1>
-        </div>
-         <div class="row">
-            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/background.jpg); "></div>
-        </div>
-        <div class="row content-filler">
-            <h1>Contact Us</h1>
-        </div>
-         <div class="row">
-            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/background.jpg); "></div>
-        </div>
-        <div class="row content-filler">
-            <h1>Click here to register!</h1>
-        </div>
 
+        <section class="row">
+            <div class="fill-screen" style="background-image: url(../../images/course.png)">
+
+                <img class="img-responsive title-image" src="../../images/logo.png" alt="Craneware Logo">
+
+                <div class="down-button">
+                    <a class="btn">
+                        <i class="fas fa-arrow-circle-down fa-4x"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="row text-banner">
+            <h1>The Craneware Care's Charity Classic!</h1>
+            <p>Craneware, in association with The Trump Turnberry are proud to present the 2018 Charity Classic - where teams will come together to compete on one of the finest courses in Scotland and the United Kingdom. All proceeds towards the event will be donated to Craneware's affiliated charities, so sign up and tee off! Good luck! </p>
+        </section>  
+        <section class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/dining.png); "></div>
+        </section>
+        <section class="row content-filler">
+            <h1>Charity Gold Day Package</h1>
+        </section>
+        <section class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/background.jpg); "></div>
+        </section>
+        <section class="row content-filler">
+            <h1>Course Info</h1>
+        </section>
+         <section class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/background.jpg); "></div>
+        </section>
+        <section class="row content-filler">
+            <h1>Associated Charities</h1>
+        </section>
+         <section class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/background.jpg); "></div>
+        </section>
+        <section class="row content-filler">
+            <h1>Contact Us</h1>
+        </section>
+         <section class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(../../images/background.jpg); "></div>
+        </section>
+        <section class="row content-filler">
+            <h1>Click here to register!</h1>
+        </section>
     </div>
 
 
@@ -91,14 +102,24 @@
     <script src="../../Scripts/bootstrap.min.js"></script>
     <script src="../../Scripts/classie.js"></script>
     <script src="../../Scripts/cbpAnimatedHeader.js"></script>
+    <script src="../../Scripts/jquery.fs.wallpaper.min.js"></script>
+    <script src="../../Scripts/scrolling.js"></script>
 
-    <script>
+    <!-- <script>
         $(function () {
             $(window).on("load resize", function () {
                 $(".fill-screen").css("height", window.innerHeight);
             });
         });
-    </script>
+
+        // $("#video-wallpaper").wallpaper({
+        //     source: {
+        //         // poster: "../../images/course.png",
+        //         video:  "//youtube.com/embed/0oKJ3s4bXl4",
+
+        //     }
+        // });
+    </script> -->
 
 </body>
 </html>
